@@ -1,5 +1,5 @@
-# CBTest2
-## A test for CBScript 
+# SpigotTest
+## An example Spigot Plugin to test CBScript 
 
 
 Requires CBScript.jar to compile
