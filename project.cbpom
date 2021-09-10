@@ -1,0 +1,19 @@
+project:
+    groupId: 'com.agentdid127.spigot'
+    artifactId: 'CBSpigot'
+    version: '1.0-SNAPSHOT'
+    
+    repositories:
+        - id: 'spigot-repo'
+          url: 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+          
+    dependencies:
+        - groupId: 'org.spigotmc'
+          artifactId: 'spigot-api'
+          version: '1.16.5-R0.1-SNAPSHOT'
+          scope: 'provided'
+          
+    build:
+      defaultGoal: 'clean install'
+      finalName: 'SpigotTest'
+      mainClass: 'com.agentdid127.spigot.SpigotPlugin'

@@ -1,0 +1,6 @@
+name: SpigotTest
+version: 0.0.1
+description: Test Plugin for CBScript
+main: com.agentdid127.spigot.SpigotPlugin
+author: CoryBorek
+api-version: 1.16

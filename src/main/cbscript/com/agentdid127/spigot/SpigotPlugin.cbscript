@@ -1,0 +1,18 @@
+package: 'com.agentdid127.spigot'
+import:
+  - item: 'org.bukkit.plugin.java.JavaPlugin'
+  - item: 'java.util.logging.Level'
+  
+class:
+  setup: 'public ;; SpigotPlugin extends JavaPlugin'
+  functions:
+    - function: 'public void onEnable'
+      annotation: 'Override'
+      items:
+        - runfn: 'getLogger().log'
+          args: ';;Level.WARNING, Enabled'
+    - function: 'public void onDisable'
+      annotation: 'Override'
+      items:
+        - runfn: 'getLogger().log'
+          args: ';;Level.WARNING, Disabling!'
